@@ -1,5 +1,17 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+# Important Notes
+
+## Dependency Installation:
+If yarn install fails due to dependency resolution issues, use the following command:
+
+```bash
+yarn install --legacy-peer-deps
+```
+
+## Biometric Authentication:
+The biometric authentication functionality is included but currently commented out because it is not working as expected. 
+
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
